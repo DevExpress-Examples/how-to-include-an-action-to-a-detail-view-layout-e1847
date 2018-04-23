@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application>
+  <Options>
+    <LayoutManagerOptions CaptionLocation="Default" CaptionWordWrap="Default" CaptionHorizontalAlignment="Default" CaptionVerticalAlignment="Default" TextAlignModeItem="UseParentOptions" TextAlignModeGroup="UseParentOptions" />
+  </Options>
+  <SchemaModules>
+    <SchemaModule Name="DevExpress.ExpressApp.SystemModule.ShowNavigationItemController" Version="9.3.0.0" />
+    <SchemaModule Name="SystemAspNetModule" Version="12.1.4.0" IsNewNode="True" />
+    <SchemaModule Name="SystemModule" Version="12.1.4.0" IsNewNode="True" />
+  </SchemaModules>
+  <Views>
+    <DetailView ID="Person_DetailView">
+      <Items>
+        <ControlDetailItem ID="MyButton One" ControlTypeName="DevExpress.Web.ASPxEditors.ASPxButton" IsNewNode="True" />
+        <ButtonDetailViewItemWeb ID="MyButton Two" IsNewNode="True" />
+      </Items>
+      <Layout Width="522" Height="888">
+        <LayoutGroup ID="Main" RelativeSize="100">
+          <LayoutGroup ID="Person" TextAlignMode="AlignLocal" RelativeSize="15">
+            <LayoutGroup ID="61e31623-a4fc-4775-b626-f4a0b446e307" ShowCaption="False" Caption="" CaptionLocation="" CaptionHorizontalAlignment="" CaptionVerticalAlignment="" CaptionWordWrap="" TextAlignMode="" Direction="Vertical" Index="2" RelativeSize="33" IsNewNode="True">
+              <LayoutItem ID="Item1" ShowCaption="False" Index="3" RelativeSize="40" IsNewNode="True" />
+              <LayoutItem ID="MyButton One" ShowCaption="False" Index="0" RelativeSize="23" IsNewNode="True" />
+              <LayoutItem ID="MyButton Two" ShowCaption="False" Index="2" RelativeSize="17" IsNewNode="True" />
+              <LayoutItem ID="Photo" ShowCaption="False" Index="1" RelativeSize="17" IsNewNode="True" />
+            </LayoutGroup>
+            <LayoutGroup ID="Person_col1" RelativeSize="33">
+              <LayoutItem ID="DisplayName" RelativeSize="22" />
+              <LayoutItem ID="FirstName" RelativeSize="17" />
+              <LayoutItem ID="FullName" RelativeSize="23" />
+              <LayoutItem ID="LastName" RelativeSize="17" />
+              <LayoutItem ID="MiddleName" RelativeSize="17" />
+            </LayoutGroup>
+            <LayoutGroup ID="Person_col2" RelativeSize="33">
+              <LayoutItem ID="Address1" Index="2" RelativeSize="17" />
+              <LayoutItem ID="Address2" Index="3" RelativeSize="40" />
+              <LayoutItem ID="Birthday" Index="1" RelativeSize="17" />
+              <LayoutItem ID="Email" Index="0" RelativeSize="23" />
+            </LayoutGroup>
+            <LayoutItem ID="Photo" Removed="True" />
+          </LayoutGroup>
+          <LayoutGroup ID="PhoneNumbers_Group" Direction="Vertical" RelativeSize="84">
+            <LayoutItem ID="PhoneNumbers" RelativeSize="95" />
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+  </Views>
+</Application>
